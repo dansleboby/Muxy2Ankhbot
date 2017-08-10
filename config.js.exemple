@@ -1,0 +1,12 @@
+var config = {};
+
+config.url           = "http://a.muxy.io/alert/USERNAME/xxxxxxxxxxxxxxxxxxxxxxxxxxx";//Url of alert page
+config.url           = config.url.replace('http', 'ws').replace('https', 'ws').replace('alert', 'ws');
+config.botname       = "bot_username"; //Username of user (should have permissions to add points)
+config.oauth         = "oauth:xxxxxxxxxxxxxxxxxxxxxxx"; //Get oAuth token https://twitchapps.com/tmi/
+config.channel       = "my_channel"; //Channel name
+config.addPointsCmd  = "!Points Add USERNAME AMOUNT"; // Username and amount will be replaced
+config.multiplicator = 100; // 1$ * 100 = 100pts
+config.initStr       = "Muxy2Ankhbot READY!"; //This will be send in chat on launch
+
+module.exports = config;

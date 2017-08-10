@@ -1,0 +1,16 @@
+{
+  "name": "muxy_ankhbot",
+  "version": "1.0.0",
+  "description": "Add points to ankhbot user when a donnation happend on Muxy",
+  "main": "index.js",
+  "dependencies": {
+    "tmi.js": "^1.2.1",
+    "ws": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dansleboby",
+  "license": "ISC"
+}
